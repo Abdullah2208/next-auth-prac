@@ -16,6 +16,7 @@ const ClientMember = () => {
         <h1>Client Memeber Session</h1>
         <p>{session?.user?.name}</p>
         <p>{session?.user?.role}</p>
+        <p>Change</p>
     </div>
   )
 }
