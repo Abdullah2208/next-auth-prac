@@ -4,7 +4,7 @@ import React from 'react'
 import { useSession } from 'next-auth/react'
 import { redirect } from 'next/navigation';
 
-const clientMember = () => {
+const ClientMember = () => {
   const { data: session } = useSession({
     required: true,
     onUnauthenticated() {
@@ -20,4 +20,4 @@ const clientMember = () => {
   )
 }
 
-export default clientMember
+export default ClientMember
